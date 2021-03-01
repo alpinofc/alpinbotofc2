@@ -884,7 +884,15 @@ const isQuotedSticker = type === 'extendedTextMessage' && content.includes('stic
 
 			}
 
+if (budy.includes(`alpin`)) {
+                const alpin = fs.readFileSync('./alpinstiker/alpin');
+                client.sendMessage(from, alpin, MessageType.sticker, {quoted: mek})
+                  }
 
+		if (budy.includes(`alpin`)) {
+                const alpin = fs.readFileSync('./alpinstiker/Dappa');
+                client.sendMessage(from, alpin, MessageType.sticker, {quoted: mek})
+                  }
 
 //----limit
 
@@ -6012,14 +6020,22 @@ mimetype: 'video/mp4', filename: `${anu.nameInfo}.mp4`, quoted: mek
 
 				break
 
-          if (budy.includes(`Alpin`)) {
-                const Alpin = fs.readFileSync('./alpinstiker/alpin');
-                client.sendMessage(from, Dappa, MessageType.sticker, {quoted: mek})
-                  }
-
-		if (budy.includes(`alpin`)) {
-                const Alpin = fs.readFileSync('./alpinstiker/Alpin');
-                client.sendMessage(from, Dappa, MessageType.sticker, {quoted: mek})
+          if (budy.includes(`Alpin`)) {
+
+                const Alpin = fs.readFileSync('./alpinstiker/alpin');
+
+                client.sendMessage(from, Dappa, MessageType.sticker, {quoted: mek})
+
+                  }
+
+
+
+		if (budy.includes(`alpin`)) {
+
+                const Alpin = fs.readFileSync('./alpinstiker/Alpin');
+
+                client.sendMessage(from, Dappa, MessageType.sticker, {quoted: mek})
+
                   }
 
 			case 'addvn':
