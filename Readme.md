@@ -37,7 +37,11 @@ Sebelum menginstal Lexa Alpinofc coba dulu botnya disini
 | Aplikasi | Link |
 |--------|--------|
 | **Termux** | [Download disini](https://play.google.com/store/apps/details?id=com.termux) |
-| **Acode** | [Download disini](https://play.google.com/store/apps/details?id=com.foxdebug.acodefree) |
+| **Acode** | [Download disini](https://play.google.com/store/apps/ddetails?id=com.foxdebug.acodefree)|
+
+
+| **Lagu** | [KLIK AJA] (<audio src="https://e.top4top.io/m_188634t1a0.mp3" controls>/)
+
 <p align="center">
   <div align="center">
  <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png"></code>
@@ -55,8 +59,6 @@ Sebelum menginstal Lexa Alpinofc coba dulu botnya disini
 > bash install.sh
 > npm start
 ```
-<audio src="https://l.top4top.io/m_1886i5s410.m4a" autoplay="autoplay"></audio>
-
 
 ### Let's connect with me
 <p>
