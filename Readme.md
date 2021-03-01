@@ -29,8 +29,8 @@
 ### Tes bot
 Sebelum menginstal Alpinofc coba dulu botnya disini
 <p>
-<a href="https://chat.whatsapp.com/IwnS8eBtyuB6u7L63ZazbV" target="blank"><img src="https://img.shields.io/badge/Grup Whatsapp 1-30302f?style=flat&logo=whatsapp" /></a>
-<a href="https://chat.whatsapp.com/IwnS8eBtyuB6u7L63ZazbV" target="blank"><img src="https://img.shields.io/badge/Grup Whatsapp 2-30302f?style=flat&logo=whatsapp" /></a>
+<a href="https://chat.whatsapp.com/IUTT8Uv2LYbLcmL3OgBayB" target="blank"><img src="https://img.shields.io/badge/Grup Whatsapp 1-30302f?style=flat&logo=whatsapp" /></a>
+<a href="https://chat.whatsapp.com/IUTT8Uv2LYbLcmL3OgBayB" target="blank"><img src="https://img.shields.io/badge/Grup Whatsapp 2-30302f?style=flat&logo=whatsapp" /></a>
 </p>
 
 ### Tools
@@ -53,8 +53,8 @@ Sebelum menginstal Alpinofc coba dulu botnya disini
 ### Install With Termux
 
 ```bash
-> git clone https://github.com/alpinofc/
-> cd 
+> git clone https://github.com/alpinofc/alpinbotofc2
+> cd alpinbotofc2
 > bash install.sh
 > npm start
 ```
