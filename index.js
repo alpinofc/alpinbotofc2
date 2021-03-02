@@ -1192,7 +1192,7 @@ Hai *${pushname}*
 
 ‣ Jumlah chat : *${totalchat.length} Chat*
 
-‣ Github : comingson
+‣ Github : https://github.com/alpinofc/alpinbotofc2
 
 ‣ Official group
 
