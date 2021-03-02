@@ -7513,7 +7513,34 @@ Pin.sendMessage(from, 'Cantikcek *'+cantik+'*\n\nJawaban : '+ tik+'%', text, {
 break
 
 
-
+case 'antisticker':
+            case 'antistiker':
+                    if (!isGroup) return reply(mess.only.group)
+				        	if (!isGroupAdmins) return reply(mess.only.admin)
+                   
+                    if (args[0] == 'on') {
+                        var cek = antisticker.includes(chatId);
+                        if(cek){
+                            return aruga.reply(from, '*Anti Spam Sticker Detector* sudah aktif di grup ini', id) //if number already exists on database
+                        } else {
+                            antisticker.push(chatId)
+                            fs.writeFileSync('./lib/Helper/antisticker.json', JSON.stringify(antisticker))
+                            aruga.reply(from, '*[Anti Sticker SPAM]* telah di aktifkan\nSetiap member grup yang spam sticker lebih dari 7 akan di kick oleh bot!', id)
+                        }
+                    } else if (args[0] == 'off') {
+                        var cek = antilink.includes(chatId);
+                        if(cek){
+                            return aruga.reply(from, '*Anti Spam Sticker Detector* sudah non-aktif di grup ini', id) //if number already exists on database
+                        } else {
+                            let nixx = antisticker.indexOf(chatId)
+                            antisticker.splice(nixx, 1)
+                            fs.writeFileSync('./lib/helper/antisticker.json', JSON.stringify(antisticker))
+                            aruga.reply(from, '*[Anti Sticker SPAM]* telah di nonaktifkan\n', id)
+                        }
+                    } else {
+                        aruga.reply(from, `pilih on / off\n\n*[Anti Sticker SPAM]*\nSetiap member grup yang spam sticker akan di kick oleh bot!`, id)
+                    }
+                    break
 
 
 
