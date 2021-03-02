@@ -1222,6 +1222,10 @@ _${Ig}_
 
 ┃ _Info tentang bot_
 
+┠⊷️ *${prefix}antisticker*
+
+┃ _ketik on antisticker_
+
 ┠⊷️ *${prefix}Owner*
 
 ┃ _Info pemilik Bot_
